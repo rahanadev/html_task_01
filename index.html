@@ -1,87 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample HTML Page</title>
 
     <style>
+        body {
+            max-width: 100%;
+            margin: 0px;
 
-        
-        
-        .wrp {
-            width: 100%;
-            height: 100%;
-            
-            background-color:lightgrey;
         }
+        .wrp {
+            height: 100%;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            background-color: lightgrey;
+        }
+
         .s1 {
-            color:white;
-            font-family:sans-serif;
+            color: white;
+            font-family: sans-serif;
             font-size: 50px;
             padding-left: 15px;
             padding-top: 3px;
-            
-            
+
+
         }
-        .s2{
+
+        .s2 {
             background-image: url("html_test_1_20_11_25/images/jane.jpg");
             background-size: 100%;
-            margin-left: 70px;
-            margin-right: 70px;
+            /* margin-left: 70px;
+            margin-right: 70px; */
             background-repeat: no-repeat;
             padding-bottom: 360px;
-            
+            margin-top: 0px;
+            padding-bottom: 330px;
+
         }
+
         .s3 {
             font-size: 30px;
             color: white;
             font-family: math;
             padding-left: 15px;
-            padding-top: 350px
+            padding-top: 350px;
+            margin-top: 0px;
             
         }
+
         .S4 {
             font-family: sans-serif;
             font-size: 20px;
-            padding-left: 20px;
+            margin-left: 20px;
             padding-top: 5px;
+            padding-bottom: 5px;
             color: black;
-            background-color: lightgrey;
-            
-            
-            
+            background-color: #d3d3d385;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: none;
+
+
+
+
         }
-            
-            
+        .s5 {
+            font-family: sans-serif;
+            color: black;
+            background-color: white;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            margin-top: 0px;
+        }
+               
+    
+
+        .s7{
+            color: white;
+            background-color: black;
+            margin: 5px;
+            border: none;
             
 
+        }
+        .s8{
+            font-family: sans-serif;
+            color: black;
+            background-color: white;
+            text-align: center;
+            padding-top: 20px;
+
+        }
+        .button {
+            border: 1px solid black;
+            background-color: white;
+            text-align: left;
+            font-weight: bold;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .border {
+            border-bottom: 1px solid gray;
+            padding-bottom: 50px;
+            
+
+        }
+        .date{
+            font-family: sans-serif;
+            color: gray;
+        }
     </style>
 </head>
 
 <body>
-    
-        <div class="wrp">
-        
-
-            <div class="s2">
-                <div padding left="15px">
-
-                    <h2 class="s3">Jane's</h2>
-                    <h1 class="s1">FASHION BLOG</h1>
-                    <button class="S4"> SUBSCRIBE </button>
-            
-                </div>
-            
-
-        
-            </div>
+    <div class="wrp">
+        <div class="s5">
+            <h1>JANE BLOGLIFE</h1>
+            <p>Welcome to the blog of <span class="s7">Jane's World</span></p>
         </div>
-    
-    
+
+
+
+        <div class="s2">
+            <div padding left="15px">
+
+                <h2 class="s3">Jane's</h2>
+                <h1 class="s1">FASHION BLOG</h1>
+                <div>
+
+                    <button class="S4"> SUBSCRIBE </button>
+                </div>
+
+            </div>
+
+            
+            
+            
+        </div>
+        <table class="S8" style="width: 100%;  ">
+            <tr>
+                <td  style="width: 45%; padding-left: 30px; ;">
+                    <div class="s8" style="text-align: center; font-family: sans-serif;">
+                        <h2>TITLE HEADING</h2>
+                        <h4>Title discription,<span style="color: gray;">May 2,2016</span></h4>
+                        <img src="html_test_1_20_11_25/images/girl_hat.jpg" width="95%">
+                        <p style="text-align:left; font-size: small; padding-left: 25px;";> More Hats! I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris nequequam, fermentum ut nisl<br>
+                            vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.Vivamus porttitor magna enim, ac accumsan tortor cursus at.<br>Phasellus sed ultricies mi non congue ullam corpar. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimtem, porta lectus<br>
+                            vitae, ultricies congue gravida diam non fringilla.<br><br>sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et<br>dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco.<br>
+                            
+                        </p>
+                        <div style="text-align: left; padding-left: 25px;">
+
+                            <button class="button">Like</button>
+                        </div>
+                        <div class="border" style="margin-left: 30px; margin-right: 30px;">
+                            
+                        </div>
+                        <table style="text-align: left;padding-top: 30px; margin-left: 30px;">
+                            <tr>
+                                <td>
+
+                                    <img src="html_test_1_20_11_25/images/avatar_smoke.jpg" width="160px" >
+                                </td>
+                                <td>
+
+                                    <div class="date" style="text-align: left; padding-left: 60px;">
+                                        <h4><span style="font-size: larger; color: black;">Goerge</span> May3, 2015,6:32 PM</h4>
+                                        
+                                        <p style="color: black;">Great blog post! Following</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </td>
+                <td style="width: 25%;">
+                    <tr>
+                        <td>
+                            
+                        </td>
+                    </tr>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
 
 
 
 
 </body>
+
 </html>
